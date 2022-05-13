@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,12 +12,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Welcome to Hiba's portfolio</h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
@@ -53,17 +51,48 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <ul className={styles.socialmedia}>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/hiba-abdel-karim/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://twitter.com/abdelkarim_hiba"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://github.com/harkibit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://stackoverflow.com/users/15598509/hiba-abdel-karim"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              StackOverflow
+            </a>
+          </li>
+        </ul>
       </footer>
     </div>
-  )
+  );
 }

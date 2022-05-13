@@ -2,6 +2,13 @@
   padding: 0 2rem;
 }
 
+.socialmedia {
+  display: flex;
+  list-style-type: none;
+}
+.socialmedia li {
+  margin: 0 1rem;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
