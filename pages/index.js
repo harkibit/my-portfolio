@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+
 import styles from "../styles/Home.module.css";
 import { Grommet, Paragraph, Button } from "grommet";
 
 import illustration from "../public/images/coding_illustration.svg";
-import Navbar from "../components/Navbar";
+import PieChart from "../components/PieChart";
 
 export default function Home() {
   return (
@@ -25,12 +27,18 @@ export default function Home() {
                 Backend Developement
               </Paragraph>
               <section className={styles.flex}>
-                <Button
-                  primary
-                  label="Let's get in touch!"
-                  className={styles.btn}
-                />
-                <a href="https://nextjs.org/docs">More about me</a>
+                <Link href="/contact">
+                  <a>
+                    <Button
+                      primary
+                      label="Let's get in touch!"
+                      className={`${styles.btn} ${styles.mr1}`}
+                    />
+                  </a>
+                </Link>
+                <Link href="/about">
+                  <a className={styles.link}>More about me</a>
+                </Link>
               </section>
             </div>
 
@@ -40,43 +48,10 @@ export default function Home() {
               className={styles.headerImage}
               width={700}
               height={700}
-            ></Image>
+            />
           </section>
 
-          <p className={styles.description}>
-            Get started by editing{" "}
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-
-          <div className={styles.grid}>
-            <a href="https://nextjs.org/docs" className={styles.card}>
-              <h2>Documentation &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
-
-            <a href="https://nextjs.org/learn" className={styles.card}>
-              <h2>Learn &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-
-            <a
-              href="https://github.com/vercel/next.js/tree/canary/examples"
-              className={styles.card}
-            >
-              <h2>Examples &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
-
-            <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              className={styles.card}
-            >
-              <h2>Deploy &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
-            </a>
-          </div>
+          <PieChart />
         </main>
       </div>
     </Grommet>
