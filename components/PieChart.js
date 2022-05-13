@@ -7,8 +7,8 @@ export default function PieChart() {
   return (
     <section className={styles.donutContainer}>
       <div>
-        <div>
-          <span></span>
+        <div className={styles.flex}>
+          <div className={styles.primaryLabel}></div>&nbsp;&nbsp;
           <span className={styles.roleTitle}>Front End Developer</span>
         </div>
         <Paragraph>
@@ -19,7 +19,9 @@ export default function PieChart() {
           <br />
           <br />
           Graduated from a 6 months long Frontend coding bootcamp with 6%
-          acceptance rate with Re:Coded and Flatiron School.
+          acceptance rate with Re:Coded and Flatiron School, where we learned
+          how to build responsive, user friendly websites using HTML5, CSS3,
+          JavaScript advanced topics, and React.js.
         </Paragraph>
       </div>
 
@@ -27,24 +29,27 @@ export default function PieChart() {
 
       <div>
         <div className={styles.mb3}>
-          <div>
-            <span></span>
+          <div className={styles.flex}>
+            <div className={styles.yellowLabel}></div>&nbsp;&nbsp;
             <span className={styles.roleTitle}>UI/UX Passionate</span>
           </div>
           <Paragraph>
-            Front End Web Developer, Passionate about UI/UX, Learning Backend
-            Developement
+            Design is my passion and I love to create beautiful, user friendly
+            and intuitive interfaces UI. I get myself Enrolled in many UI/UX
+            courses to dive deeper in this field and learn new skills.
           </Paragraph>
         </div>
 
         <>
-          <div>
-            <span></span>
+          <div className={styles.flex}>
+            <div className={styles.pinkLabel}></div>&nbsp;&nbsp;
             <span className={styles.roleTitle}>Backend End Developer</span>
           </div>
           <Paragraph>
-            Front End Web Developer, Passionate about UI/UX, Learning Backend
-            Developement
+            My aim is to build a solid foundation of knowledge in the backend.
+            Therefore I learnt the fundamentals of building APIs with online
+            courses. And as I am a Computer science student, I have the
+            knowledge concerning databases and server side programming.
           </Paragraph>
         </>
       </div>
