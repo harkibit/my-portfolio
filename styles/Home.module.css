@@ -9,6 +9,9 @@
 .container {
   padding: 0 4rem;
 }
+.componentContainer {
+  margin: 6rem 0;
+}
 .link {
   color: primary !important;
 }
@@ -207,6 +210,9 @@
 }
 
 @media (max-width: 1024px) {
+  .donutContainer {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 600px) {
@@ -215,6 +221,9 @@
     flex-direction: column;
   }
 
+  .donutContainer {
+    flex-direction: column;
+  }
   .headerSection {
     flex-direction: column;
   }
