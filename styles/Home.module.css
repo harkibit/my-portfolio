@@ -10,7 +10,8 @@
   padding: 0 4rem;
 }
 .componentContainer {
-  margin: 6rem 0;
+  margin: 8rem 0;
+  width: 100%;
 }
 .link {
   color: primary !important;
@@ -173,7 +174,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 8rem 0;
   align-items: center;
 }
 .roleTitle {
@@ -208,10 +208,26 @@
   height: 30px;
   border-radius: 5px;
 }
+/* dognut chart end */
+.projectCard {
+  border-bottom: 2px solid;
+  padding: 2rem;
+  border-radius: 5px 5px 0 0;
+}
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
 @media (max-width: 1024px) {
-  .donutContainer {
+  .donutContainer,
+  .headerSection {
     flex-direction: column;
+  }
+
+  .headerSection > div {
+    width: 100%;
   }
 }
 
@@ -219,15 +235,5 @@
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-
-  .donutContainer {
-    flex-direction: column;
-  }
-  .headerSection {
-    flex-direction: column;
-  }
-  .headerSection > div {
-    width: 100%;
   }
 }
