@@ -10,7 +10,7 @@
   padding: 0 4rem;
 }
 .componentContainer {
-  margin: 8rem 0;
+  margin-top: 8rem;
   width: 100%;
 }
 .link {
@@ -210,16 +210,37 @@
 }
 /* dognut chart end */
 .projectCard {
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   padding: 2rem;
   border-radius: 5px 5px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  position: relative;
+  min-height: 300px;
+}
+.projectHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+}
+.projectHeading a {
+  margin-right: 10px;
+  color: primary;
+  font-size: 1.2rem;
+}
+.projectHeading a:last-child() {
+  margin-right: 0;
 }
 .projectGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
+.projectLogo {
+  position: absolute;
+  bottom: 10px !important;
+  right: 10px !important;
+}
 @media (max-width: 1024px) {
   .donutContainer,
   .headerSection {
@@ -232,6 +253,15 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    padding: 0 2rem;
+  }
+  .navbar {
+    padding: 2rem;
+  }
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
