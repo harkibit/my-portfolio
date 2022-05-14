@@ -8,6 +8,8 @@ import { Grommet, Paragraph, Button } from "grommet";
 import illustration from "../public/images/coding_illustration.svg";
 import PieChart from "../components/PieChart";
 import Portfolio from "../components/Portfolio";
+import RandomFacts from "../components/RandomFacts";
+import SkillsChart from "../components/SkillsChart";
 
 export default function Home() {
   return (
@@ -55,6 +57,10 @@ export default function Home() {
           <PieChart />
 
           <Portfolio />
+
+          <RandomFacts />
+
+          {/* <SkillsChart /> */}
         </main>
       </div>
     </Grommet>

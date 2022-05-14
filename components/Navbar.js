@@ -20,17 +20,8 @@ export default function Navbar() {
       <section>
         <ul className={`${styles.ul} ${styles.flex}`}>
           <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-          <li>
             <Link href="/contact">
-              <Button
-                primary
-                label="Let's get in touch!"
-                className={styles.btn}
-              />
+              <Button primary label="Get in touch!" className={styles.btn} />
             </Link>
           </li>
         </ul>

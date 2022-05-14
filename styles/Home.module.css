@@ -10,7 +10,9 @@
   padding: 0 4rem;
 }
 .componentContainer {
-  margin-top: 8rem;
+  padding: 4rem 0;
+  border-top: 1px solid rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(240, 240, 240);
   width: 100%;
 }
 .link {
@@ -209,6 +211,8 @@
   border-radius: 5px;
 }
 /* dognut chart end */
+
+/* portfolio start */
 .projectCard {
   border-bottom: 3px solid;
   padding: 2rem;
@@ -241,6 +245,24 @@
   bottom: 10px !important;
   right: 10px !important;
 }
+/* portfolio end */
+
+/* random facts start */
+.randomFacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+.randomFactsList {
+  list-style-type: none;
+  padding: 0;
+}
+.randomFactsList li {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+/* random facts end */
+
 @media (max-width: 1024px) {
   .donutContainer,
   .headerSection {
