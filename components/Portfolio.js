@@ -1,6 +1,7 @@
-import { Heading, Grid, Box } from "grommet";
 import React from "react";
 import styles from "../styles/Home.module.css";
+
+import { Heading, Grid, Box } from "grommet";
 
 export default function Portfolio() {
   return (
