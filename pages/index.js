@@ -10,6 +10,7 @@ import PieChart from "../components/PieChart";
 import Portfolio from "../components/Portfolio";
 import RandomFacts from "../components/RandomFacts";
 import SkillsChart from "../components/SkillsChart";
+import SocialMedia from "../components/SocialMedia";
 
 export default function Home() {
   return (
@@ -61,6 +62,8 @@ export default function Home() {
           <RandomFacts />
 
           {/* <SkillsChart /> */}
+
+          <SocialMedia />
         </main>
       </div>
     </Grommet>
