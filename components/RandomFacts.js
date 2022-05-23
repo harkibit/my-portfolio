@@ -19,7 +19,7 @@ export default function RandomFacts() {
             <li>Book Lover</li>
             <li>I have a dream of being a writer</li>
             <li>All kind sports girl lover</li>
-            <li>I can't spend a day without dark chocolate</li>
+            <li>I can&apos;t spend a day without dark chocolate</li>
             <li>
               Every few months I try to learn a non tech related, new skill.
               Drawing has been the latest one!

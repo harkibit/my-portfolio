@@ -48,7 +48,7 @@ export default function SocialMedia() {
     <div className={styles.componentContainer} style={{ border: "none" }}>
       <div className={styles.randomFacts}>
         <div>
-          <Heading>Let's Connect!</Heading>
+          <Heading>Let&apos;s Connect!</Heading>
           <form ref={contactForm} onSubmit={(e) => sendEmail(e)}>
             <TextInput
               placeholder="Enter your name"

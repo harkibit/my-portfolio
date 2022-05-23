@@ -25,7 +25,7 @@ export default function Home() {
         <main className={styles.main}>
           <section className={styles.headerSection}>
             <div>
-              <h1 className={styles.title}>Welcome to Hiba's portfolio</h1>
+              <h1 className={styles.title}>Welcome to Hiba&apos;s portfolio</h1>
               <Paragraph className={styles.description}>
                 Front End Web Developer, Passionate about UI/UX, Learning
                 Backend Developement
@@ -33,7 +33,9 @@ export default function Home() {
               <section className={styles.flex}>
                 <Link href="/contact">
                   <a>
-                    <button className={styles.btn}>Let's get in touch!</button>
+                    <button className={styles.btn}>
+                      Let&apos;s get in touch!
+                    </button>
                   </a>
                 </Link>
                 {/* <Link href="/about">

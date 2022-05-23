@@ -40,11 +40,11 @@ export default function contact() {
     <div className={styles.container}>
       <div className={styles.randomFacts}>
         <div>
-          <h1 className={styles.contactTitle}>Let's Talk!</h1>
+          <h1 className={styles.contactTitle}>Let&apos;s Talk!</h1>
           <p className={styles.contactContent}>
             We can talk about anything! Mostly I will be interested in working
             on frontend projects using React.js or Next.js and backend projects
-            using Node.js or Express.js. If you'd like us to work on these
+            using Node.js or Express.js. If you&apos;d like us to work on these
             projects together, please get in touch!
           </p>
 
