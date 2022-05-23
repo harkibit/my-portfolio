@@ -1,8 +1,13 @@
+@font-face {
+  font-family: Axiforma;
+  src: url(../public/fonts/FontsFree-Net-sddd4.ttf);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Axiforma", sans-serif;
 }
 
 a {

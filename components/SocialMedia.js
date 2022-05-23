@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
@@ -22,7 +22,6 @@ export default function SocialMedia() {
     email: "",
     content: "",
   });
-
   const contactForm = useRef();
 
   const sendEmail = (e) => {
@@ -30,14 +29,14 @@ export default function SocialMedia() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_pq7hpkb",
+        "template_o0lgl0a",
         contactForm.current,
-        "YOUR_PUBLIC_KEY"
+        "2Slm1HP7RJwCoPx-m"
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setForm({ ...form, name: "", email: "", content: "" });
         },
         (error) => {
           console.log(error.text);
@@ -50,7 +49,7 @@ export default function SocialMedia() {
       <div className={styles.randomFacts}>
         <div>
           <Heading>Let's Connect!</Heading>
-          <form ref={contactForm} onSubmit={sendEmail}>
+          <form ref={contactForm} onSubmit={(e) => sendEmail(e)}>
             <TextInput
               placeholder="Enter your name"
               value={form.name}
@@ -58,31 +57,31 @@ export default function SocialMedia() {
                 setForm({ ...form, name: event.target.value })
               }
               className={styles.input}
+              name="from_name"
             />
             <TextInput
               placeholder="Enter your email"
-              value={form.name}
+              value={form.email}
               onChange={(event) =>
                 setForm({ ...form, email: event.target.value })
               }
               className={styles.input}
+              name="from_email"
             />
             <TextArea
               placeholder="What you have in mind?"
-              value={form.name}
+              value={form.content}
               onChange={(event) =>
                 setForm({ ...form, content: event.target.value })
               }
               className={styles.input}
               style={{ resize: "none" }}
               rows={6}
+              name="message"
             />
-            <Button
-              primary
-              label="Get in touch!"
-              className={styles.btn}
-              type="submit"
-            />
+            <button className={styles.btn} type="submit">
+              Get in touch!
+            </button>
           </form>
         </div>
         <div className={styles.socialMediaContainer}>

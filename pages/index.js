@@ -33,16 +33,12 @@ export default function Home() {
               <section className={styles.flex}>
                 <Link href="/contact">
                   <a>
-                    <Button
-                      primary
-                      label="Let's get in touch!"
-                      className={`${styles.btn} ${styles.mr1}`}
-                    />
+                    <button className={styles.btn}>Let's get in touch!</button>
                   </a>
                 </Link>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className={styles.link}>More about me</a>
-                </Link>
+                </Link> */}
               </section>
             </div>
 

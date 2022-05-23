@@ -4,13 +4,14 @@ import Link from "next/link";
 import { Grommet, Paragraph, Button } from "grommet";
 
 import styles from "../styles/Home.module.css";
-import logo from "../public/images/logo1.svg";
+import logo from "../public/images/logo.svg";
 
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <Link href="/">
         <Image
+          alt="site-logo"
           src={logo}
           width={"100px"}
           className={styles.logo}
@@ -21,7 +22,7 @@ export default function Navbar() {
         <ul className={`${styles.ul} ${styles.flex}`}>
           <li>
             <Link href="/contact">
-              <Button primary label="Get in touch!" className={styles.btn} />
+              <button className={styles.btn}>Get in touch!</button>
             </Link>
           </li>
         </ul>

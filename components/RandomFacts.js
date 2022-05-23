@@ -10,7 +10,7 @@ export default function RandomFacts() {
   return (
     <div className={styles.componentContainer}>
       <div className={styles.randomFacts}>
-        <Image src={randomFacts} />
+        <Image src={randomFacts} alt="illustrator" />
         <div>
           <Heading>Random Facts</Heading>
           <ul className={styles.randomFactsList}>

@@ -18,12 +18,14 @@ export default function Portfolio() {
               <a
                 href="https://discover-north-lebanon-b58aa.web.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <FiExternalLink />
               </a>
               <a
                 href="https://github.com/harkibit/discover-north-lebanon"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <BsGithub />
               </a>
@@ -41,7 +43,11 @@ export default function Portfolio() {
           <div className={styles.projectHeading}>
             <h2>American Shipping International</h2>
             <div>
-              <a href="https://asishipping.com/" target="_blank">
+              <a
+                href="https://asishipping.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FiExternalLink />
               </a>
             </div>
@@ -59,7 +65,11 @@ export default function Portfolio() {
           <div className={styles.projectHeading}>
             <h2>GKL Shipping</h2>
             <div>
-              <a href="https://gklshipping.com/" target="_blank">
+              <a
+                href="https://gklshipping.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FiExternalLink />
               </a>
             </div>
