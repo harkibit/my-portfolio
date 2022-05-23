@@ -7,7 +7,7 @@ import { Heading, TextInput, TextArea, Button } from "grommet";
 import styles from "../styles/Home.module.css";
 
 import twitter from "../public/images/Twitter.png";
-import linkedin from "../public/images/Linkedin.png";
+import linkedin from "../public/images/LinkedIn.png";
 import outlook from "../public/images/Outlook.png";
 import youtube from "../public/images/Youtube.png";
 import zoom from "../public/images/Zoom.png";
