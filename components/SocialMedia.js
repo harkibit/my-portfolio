@@ -6,15 +6,15 @@ import { Heading, TextInput, TextArea, Button } from "grommet";
 
 import styles from "../styles/Home.module.css";
 
-import twitter from "../public/images/twitter.png";
-import linkedin from "../public/images/linkedin.png";
-import outlook from "../public/images/outlook.png";
-import youtube from "../public/images/youtube.png";
-import zoom from "../public/images/zoom.png";
-import instagram from "../public/images/instagram.png";
-import discord from "../public/images/discord.png";
-import dribbble from "../public/images/dribbble.png";
-import slack from "../public/images/slack.png";
+import twitter from "../public/images/Twitter.png";
+import linkedin from "../public/images/Linkedin.png";
+import outlook from "../public/images/Outlook.png";
+import youtube from "../public/images/Youtube.png";
+import zoom from "../public/images/Zoom.png";
+import instagram from "../public/images/Instagram.png";
+import discord from "../public/images/Discord.png";
+import dribbble from "../public/images/Dribbble.png";
+import slack from "../public/images/Slack.png";
 
 export default function SocialMedia() {
   const [form, setForm] = React.useState({
