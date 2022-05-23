@@ -8,7 +8,7 @@ import illustration from "../public/images/contact.svg";
 
 import { Grommet } from "grommet";
 
-export default function contact() {
+export default function Contact() {
   const [form, setForm] = useState({
     name: "",
     email: "",
