@@ -290,51 +290,6 @@
 .socialMediaContainer {
   position: relative;
 }
-.socialMediaContainer > span:nth-child(1) {
-  position: absolute;
-  top: 50% !important;
-  left: 10% !important;
-}
-.socialMediaContainer > span:nth-child(2) {
-  position: absolute;
-  top: 25% !important;
-  left: 25% !important;
-}
-.socialMediaContainer > span:nth-child(3) {
-  position: absolute;
-  top: 10% !important;
-  right: 10% !important;
-}
-.socialMediaContainer > span:nth-child(4) {
-  position: absolute;
-  top: 50% !important;
-  left: 10% !important;
-}
-.socialMediaContainer > span:nth-child(5) {
-  position: absolute;
-  top: 10% !important;
-  left: 10% !important;
-}
-.socialMediaContainer > span:nth-child(6) {
-  position: absolute;
-  top: 25% !important;
-  left: 15% !important;
-}
-.socialMediaContainer > span:nth-child(7) {
-  position: absolute;
-  top: 58% !important;
-  left: 25% !important;
-}
-.socialMediaContainer > span:nth-child(8) {
-  position: absolute;
-  top: 65% !important;
-  left: 40% !important;
-}
-.socialMediaContainer > span:nth-child(9) {
-  position: absolute;
-  top: 45% !important;
-  left: 55% !important;
-}
 /* portfolio end */
 
 /* random facts start */

@@ -5,16 +5,7 @@ import emailjs from "@emailjs/browser";
 import { Heading, TextInput, TextArea, Button } from "grommet";
 
 import styles from "../styles/Home.module.css";
-
-import twitter from "../public/images/Twitter.png";
-import linkedin from "../public/images/LinkedIn.png";
-import outlook from "../public/images/Outlook.png";
-import youtube from "../public/images/Youtube.png";
-import zoom from "../public/images/Zoom.png";
-import instagram from "../public/images/Instagram.png";
-import discord from "../public/images/Discord.png";
-import dribbble from "../public/images/Dribbble.png";
-import slack from "../public/images/Slack.png";
+import socialMedia from "../public/images/socialMedia.png";
 
 export default function SocialMedia() {
   const [form, setForm] = React.useState({
@@ -85,69 +76,7 @@ export default function SocialMedia() {
           </form>
         </div>
         <div className={styles.socialMediaContainer}>
-          <Image
-            alt="twitter"
-            src={twitter}
-            width={100}
-            height={100}
-            className={styles.twitter}
-          />
-          <Image
-            alt="Linkedin"
-            src={linkedin}
-            width={100}
-            height={100}
-            className={styles.linkedin}
-          />
-          <Image
-            alt="outlook"
-            src={outlook}
-            width={100}
-            height={100}
-            className={styles.outlook}
-          />
-          <Image
-            alt="Instagram"
-            src={instagram}
-            width={100}
-            height={100}
-            className={styles.outlook}
-          />
-          <Image
-            alt="Youtube"
-            src={youtube}
-            width={100}
-            height={100}
-            className={styles.outlook}
-          />
-          <Image
-            alt="Zoom"
-            src={zoom}
-            width={100}
-            height={100}
-            className={styles.outlook}
-          />
-          <Image
-            alt="Discord"
-            src={discord}
-            width={100}
-            height={100}
-            className={styles.outlook}
-          />
-          <Image
-            alt="Slack"
-            src={slack}
-            width={100}
-            height={100}
-            className={styles.outlook}
-          />
-          <Image
-            alt="Dribbble"
-            src={dribbble}
-            width={100}
-            height={100}
-            className={styles.outlook}
-          />
+          <Image alt="twitter" src={socialMedia} />
         </div>
       </div>
     </div>
