@@ -1,5 +1,5 @@
 <p align = "center">
- <img src = "public/images/logo.svg"/> 
+ <img src = "public/images/logo.svg" width="130"/> 
 </p>
 <h1 align = "center"> 
  My Portfolio
