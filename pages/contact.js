@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import Head from "next/head";
 import Image from "next/image";
 
 import styles from "../styles/Home.module.css";
@@ -38,6 +39,12 @@ export default function Contact() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Hiba Abdel Kairm - Contact</title>
+        <meta name="description" content="Contact Page" />
+        <link rel="icon" href="/static/favicon.svg" sizes="57x57" />
+      </Head>
+
       <div className={styles.randomFacts}>
         <div>
           <h1 className={styles.contactTitle}>Let&apos;s Talk!</h1>
