@@ -13,7 +13,7 @@ export default function Navbar() {
         <Image
           alt="site-logo"
           src={logo}
-          width={"100px"}
+          width={"80px"}
           className={styles.logo}
           height={"100px"}
         />
