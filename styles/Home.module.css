@@ -1,6 +1,12 @@
 @value primary: #7d4cdb;
 @value yellow: #FFCA58;
 @value pink: #FD6FFF;
+/* 
+* linear-gradient(90deg,#5c5cff,#8960ff)
+* Combine these 2
+* #3b456a
+* And use Muli font Family
+ */
 
 .btn {
   background-color: primary;
@@ -140,6 +146,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  font-family: "MuliBold";
 }
 
 .title a:hover,
