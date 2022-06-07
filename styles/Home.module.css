@@ -1,4 +1,4 @@
-@value primary: #7d4cdb;
+@value primary: #8960ff;
 @value yellow: #FFCA58;
 @value pink: #FD6FFF;
 /* 
@@ -9,7 +9,7 @@
  */
 
 .btn {
-  background-color: primary;
+  background: linear-gradient(90deg, #5c5cff, #8960ff);
   color: white;
   border: none;
   border-radius: 10px;
@@ -144,7 +144,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: primary;
   text-decoration: none;
   font-family: "MuliBold";
 }
